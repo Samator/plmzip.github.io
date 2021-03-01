@@ -68,7 +68,7 @@ body{
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 23px;
     color: #FFFFFF;
     padding-bottom: 7px;
@@ -437,7 +437,7 @@ body{
     cursor: pointer;
 }
 .manufacturers__link:not(:first-child){
-    margin-left: 112px;
+    margin-left: 85px;
 }
 .manufacturers__proto {
 }

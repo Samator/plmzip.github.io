@@ -4,3 +4,12 @@ $(document).ready(function(){
         nextArrow: '.manufacturers__right-pag',
     });
 });
+
+
+$(document).ready(function(){
+    $('.top-slider').slick({
+        prevArrow: '.top-slider__prev',
+        nextArrow: '.top-slider__next',
+        dots: true,
+    });
+});

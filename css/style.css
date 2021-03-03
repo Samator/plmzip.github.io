@@ -117,7 +117,96 @@ body{
     margin-top: -60px;
     width: 100%;
     height: 607px;
-    background-color: green;
+    background-image: url("../img/top_slider/photo_banner.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-slider__bg{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+}
+.top-slider__wrapper{
+    padding: 50px 0 50px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top-slider__prev {
+    width: 12px;
+    height: 28px;
+    background-image: url("../img/top_slider/arrow.svg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.top-slider {
+    width: 90%;
+    height: 420px;
+}
+.top-slider__next {
+    width: 12px;
+    height: 28px;
+    background-image: url("../img/top_slider/arrow.svg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    cursor: pointer;
+}
+
+
+.top-slider__item {
+    display: flex;
+    flex-direction: column;
+}
+.top-slider__item__title {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FFFFFF;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.top-slider__item__subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.top-slider__item__btn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #000000;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 23px 40px;
+    max-width: 226px;
+    cursor: pointer;
+}
+
+.slick-dots li button::before {
+    color: #fff;
+}
+.slick-dots li.slick-active button:before{
+    color: #fff;
+    font-size: 16px;
 }
 /*===========================================================================*/
 /*===========================================================================*/
